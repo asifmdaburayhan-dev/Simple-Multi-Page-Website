@@ -1,0 +1,44 @@
+
+.home {
+    text-align: center;
+    background-color: #2e86de;
+    color: white;
+    padding: 10px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 768px) {
+    .home {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home {
+        padding: 15px 8px;
+    }
+
+    .home h1 {
+        font-size: 25px;
+    }
+
+    .home h2 {
+        font-size: 22px;
+    }
+}

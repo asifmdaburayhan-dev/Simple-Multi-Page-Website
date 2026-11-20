@@ -1,0 +1,29 @@
+
+.services {
+    text-align: center;
+    background-color: #2e86de;
+    color: white;
+    padding: 10px;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 768px) {
+    .services {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .services {
+        padding: 15px 8px;
+    }
+
+    .services h1 {
+        font-size: 25px;
+    }
+
+    .services h2 {
+        font-size: 22px;
+    }
+}

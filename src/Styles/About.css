@@ -1,0 +1,31 @@
+
+.about {
+    text-align: center;
+    background-color: #2e86de;
+    color: white;
+    padding: 10px;
+}
+
+
+
+/* Responsive CSS */
+
+@media (max-width: 768px) {
+    .about {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding: 15px 8px;
+    }
+
+    .about h1 {
+        font-size: 25px;
+    }
+
+    .about h2 {
+        font-size: 22px;
+    }
+}
